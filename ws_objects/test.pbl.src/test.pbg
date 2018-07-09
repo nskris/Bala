@@ -5,4 +5,5 @@
 @begin Objects 
  "w_logon.srw" "test.pbl";
  "w_test.srw" "test.pbl";
+ "w_test1.srw" "test.pbl";
 @end;
