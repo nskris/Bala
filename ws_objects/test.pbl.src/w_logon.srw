@@ -76,6 +76,9 @@ string facename = "Tahoma"
 string text = "none"
 end type
 
+event clicked;open(w_test)
+end event
+
 type st_2 from statictext within w_logon
 integer x = 1202
 integer y = 792
