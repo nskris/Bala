@@ -1,0 +1,52 @@
+start session
+set liblist "C:\SVN\Pharmaserv\Trunk\PB125\PfW\applicat.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfcapsrv.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfcdwsrv.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfcmain.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfcutil.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfcwnsrv.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfeapsrv.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfedwsrv.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfemain.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfeutil.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfewnsrv.pbl;C:\SVN\Pharmaserv\Trunk\PB125\Shared\datawind.pbl;C:\SVN\Pharmaserv\Trunk\PB125\Shared\function.pbl;C:\SVN\Pharmaserv\Trunk\PB125\Shared\security.pbl;C:\SVN\Pharmaserv\Trunk\PB125\Shared\sethelp.pbl;C:\SVN\Pharmaserv\Trunk\PB125\Shared\struct2.pbl;C:\SVN\Pharmaserv\Trunk\PB125\Shared\structur.pbl;C:\SVN\Pharmaserv\Trunk\PB125\Shared\userobj.pbl;C:\SVN\Pharmaserv\Trunk\PB125\Shared\window.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\rxdw.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\rx.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\rx3.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\rx2.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\recon.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\pricing2.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\prescrib.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\pharm.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\pbpricing.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\pbpillcntr.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\pbmedispan.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\patient.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\patient2.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\patcov.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\item.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\commonprofile.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\item2.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\import.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\erx.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\digicall.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\couns.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\codes.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\carrwnd.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\carrwnd2.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\carrdw.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\carrbill.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\cam.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\business.pbl;C:\SVN\Pharmaserv\Trunk\PB125\PfW\acctrecv.pbl"
+set application "C:\SVN\Pharmaserv\Trunk\PB125\PfW\applicat.pbl" "pharminator"
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfcapsrv.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfcdwsrv.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfcmain.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfcutil.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfcwnsrv.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfeapsrv.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfedwsrv.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfemain.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfeutil.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PFC\pfewnsrv.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\Shared\datawind.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\Shared\function.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\Shared\security.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\Shared\sethelp.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\Shared\struct2.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\Shared\structur.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\Shared\userobj.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\Shared\window.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\rxdw.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\rx.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\rx3.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\rx2.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\recon.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\pricing2.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\prescrib.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\pharm.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\pbpricing.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\pbpillcntr.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\pbmedispan.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\patient.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\patient2.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\patcov.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\item.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\item2.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\import.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\erx.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\digicall.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\couns.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\codes.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\carrwnd.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\carrwnd2.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\carrdw.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\carrbill.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\cam.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\business.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\acctrecv.pbl" "" PBD
+build library "C:\SVN\Pharmaserv\Trunk\PB125\PfW\commonprofile.pbl" "" PBD
+build executable "C:\SVN\Pharmaserv\Trunk\PB125\PfW\pharm32.exe" "C:\SVN\Pharmaserv\Trunk\PB125\PfW\PFW.ICO" "C:\SVN\Pharmaserv\Trunk\PB125\PfW\pharm32.pbr" "NYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+end  session

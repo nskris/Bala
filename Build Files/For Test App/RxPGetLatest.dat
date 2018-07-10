@@ -1,0 +1,14 @@
+start session
+scc get connect properties "D:\BalaPB\Bala.pbw"
+scc set connect property provider "PushOk SVNSCC"
+scc set connect property userid "nskris@gmail.com"
+scc set connect property password "roadking95"
+scc set connect property logfile "C:\SVN\Pharmaserv\Trunk\PB125\build_scripts\Rxprocessing_pbscc120.log"
+scc set connect property logappend True
+scc connect
+SCC set connect property localprojpath "D:\BalaPB"
+;scc set target "D:\BalaPB\bala.pbt" outofdate exclude_checkout
+scc set target "D:\BalaPB\bala.pbt" "refresh_all"
+SCC refresh target "full"
+SCC Close
+end session

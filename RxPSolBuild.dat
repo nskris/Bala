@@ -1,0 +1,5 @@
+start session
+set liblist "D:\BalaPB\bala.pbl; D:\BalaPB\test.pbl" "bala"
+build library "D:\BalaPB\test.pbl" "" PBD
+build executable "D:\BalaPB\bala.exe" "C:\SVN\Pharmaserv\Trunk\PB125\PfW\PFW.ICO" "D:\BalaPB\bala.pbr" "NY"
+end  session
