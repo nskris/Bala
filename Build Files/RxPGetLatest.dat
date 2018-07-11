@@ -1,0 +1,14 @@
+start session
+scc get connect properties "C:\SVN\Pharmaserv\Trunk\PB125\PfW\Pharm32.pbw"
+scc set connect property provider "PushOk SVNSCC"
+scc set connect property userid "build"
+scc set connect property password "BuildServer391"
+scc set connect property logfile "C:\SVN\Pharmaserv\Trunk\PB125\build_scripts\Rxprocessing_pbscc120.log"
+scc set connect property logappend True
+scc connect
+SCC set connect property localprojpath "C:\SVN\Pharmaserv\Trunk\PB125"
+;scc set target "C:\SVN\Pharmaserv\Trunk\PB125\PfW\pharm.pbt" outofdate exclude_checkout
+scc set target "C:\SVN\Pharmaserv\Trunk\PB125\PfW\pharm.pbt" "refresh_all"
+SCC refresh target "full"
+SCC Close
+end session
