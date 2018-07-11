@@ -1,6 +1,6 @@
 start session
 scc get connect properties "D:\BalaPB\Bala.pbw"
-scc set connect property provider "Git"
+scc set connect property provider "PBS Git MSSCCI"
 scc set connect property userid "nskris@gmail.com"
 scc set connect property password "roadking95"
 scc set connect property logfile "D:\BalaPB\Test.log"
