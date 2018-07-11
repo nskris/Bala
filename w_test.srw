@@ -69,6 +69,9 @@ boolean underline = true
 string text = "Test"
 end type
 
+event clicked;open(w_test1)
+end event
+
 type cb_3 from commandbutton within w_test
 integer x = 937
 integer y = 924
